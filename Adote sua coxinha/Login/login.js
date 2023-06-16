@@ -1,16 +1,9 @@
+// Para adicionar mais um usuário, coloque {user: 'nome do usuário', pass: 'senha'}.
 const cadastros = [
     {
         user: 'admin',
         pass: 'admin'
-    },
-    {
-        user: 'moises',
-        pass: '1234'
-    },
-    {
-        user: 'eve',
-        pass: '1234'
-    }
+    }  //Não esqueça de colocar virgula antes de criar um novo usuário.
 ]
 
 function acesso(){
