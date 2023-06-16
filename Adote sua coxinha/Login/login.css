@@ -1,0 +1,120 @@
+/* Importa fonte */
+@font-face {
+    font-family: 'inder';  
+    src: url(../fonte/Inder-Regular.ttf) format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: inder;
+}
+
+body{
+    background-color: #DAD7BA;
+    overflow: hidden; /* Oculta barra de rolagem */
+}
+
+.area_login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+   background-color: #D9D9D9;
+   width: 700px;
+   height: 480px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.titulo{
+    margin-bottom: -20px;
+    font-size: max(3px, 1.6vw);
+}
+
+.login form{
+    padding: 30px;
+}
+
+#usuario, #senha{
+    margin-top: 20px;
+    background-color: #B0ADAD;
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 65px;
+    color: #1A1313;
+    
+    
+}
+
+form [type="submit"]{
+    margin-top: 20px;
+    background-color: #B0ADAD;
+    height: 50px;
+    width: 180px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 25px;
+    font-size: max(3px, 0.888vw);
+    cursor: pointer;
+    position: relative;
+    transition: all 300ms ease;
+
+
+}
+
+.efeito:hover{
+    background-color: #bfbcbc;
+    
+}
+
+
+/* Fonte dos inputs */
+
+#usuario::placeholder{
+    font-size: 15px;
+    
+
+}
+
+#senha::placeholder{
+    font-size: 15px;
+}
+
+.cadastro{
+    font-size: 15px;
+}
+
+a{
+    color: #1542DF;
+}
+
+a:hover{
+    color: #0c2da5;
+    
+}
+
+.icon{
+    height: 21px;
+    margin-bottom: -6px;
+}
+
+.pai{
+    position: relative;
+}
+
+.filho{
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+}

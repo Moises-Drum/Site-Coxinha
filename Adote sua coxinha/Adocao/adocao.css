@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'inder';
+    src: url(../fonte/Inder-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'inder';
+    list-style: none;
+}
+
+body{
+    background-color: #DAD7BA;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Main */
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.areaOpcoes{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #d9d9d9;
+    width: 1150px;
+    height: 1100px;
+    border-radius: 25px;
+}
+
+.coxinhas{
+    margin: 0 65px 130px 65px;
+}
+
+a{
+    color: #1A1313;
+}
+
+
+/* 1° coluna */
+.opcoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgCoxin{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 0.1px solid #1A1313;
+    transition: all 200ms;
+}
+
+.imgCoxin:hover{
+    transform: scale(1.05);
+    
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.nomeLink{
+    position: relative;
+}
+
+.nomeLink::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #4b3f3f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nomeLink:hover::after{
+    width: 100%;
+}
+
+/* 2° coluna */
+.imgCoxin2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 0.1px solid #1A1313;
+    transition: all 200ms;
+}
+
+.imgCoxin2:hover{
+    transform: scale(1.05);
+    
+}
+
+.nome2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.nomeLink2{
+    position: relative;
+}
+
+.nomeLink2::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #4b3f3f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nomeLink2:hover::after{
+    width: 100%;
+}
+
+/* 3° coluna */
+.imgCoxin3{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 0.1px solid #1A1313;
+    transition: all 200ms;
+}
+
+.imgCoxin3:hover{
+    transform: scale(1.05);
+    
+}
+
+
+/* Linha que seṕara o main - footer */
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #a9a6a6, transparent)
+}
+
+/* Footer */
+
+footer{
+    margin-top: 40px;
+    height: 100%;
+}
+
+.areaFooter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.areaFooter2{
+    margin: 0 50px 0 50px;
+}
+
+.redesSociais{
+    width: 25px;
+    padding: 0 5px 0 5px;
+}
+
+.areaRS{
+    width: 120px;
+}
+
+li{
+    padding: 5px 0 5px 0;
+}
+
+.TitulosFooter{
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+li a{
+    transition: all 0.15s;
+}
+
+li a:hover{
+    color: #4b3f3f;
+}

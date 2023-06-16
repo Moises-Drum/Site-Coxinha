@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'inder';
+    src: url(/fonte/Inder-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'inder';
+}
+
+body{
+    background-color: #DAD7BA;
+    margin-top: 100px;
+}
+
+/* Main */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    font-size: 20px;
+}
+
+#coxinha{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 0.1px solid #1A1313;
+    transition: all 200ms;
+}
+
+#nome{
+    margin: 15px 0 15px 0;
+    letter-spacing: 2px;
+}
+
+#areaCoxin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#areaDesc{
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    width: 780px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#desc{
+    width: 550px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+#botao{
+    margin: 100px 0 100px 0;
+}
+
+#adotar{
+    background-color: #d9d9d9;
+    border: none;
+    padding: 25px 70px 25px 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: all 200ms;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#adotar:hover{
+    transform: scale(1.05);
+    background-color: #d1d1d1;
+}
+
+/* Footer */
+footer{
+    margin-top: 40px;
+    height: 100%;
+}
+
+.areaFooter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.areaFooter2{
+    margin: 0 50px 0 50px;
+}
+
+.redesSociais{
+    width: 25px;
+    padding: 0 5px 0 5px;
+}
+
+.areaRS{
+    width: 120px;
+}
+
+li{
+    padding: 5px 0 5px 0;
+}
+
+a{
+    color: #1A1313;
+}
+
+.TitulosFooter{
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+li a{
+    transition: all 0.15s;
+}
+
+li a:hover{
+    color: #4b3f3f;
+}
+
